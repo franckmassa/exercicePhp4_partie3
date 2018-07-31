@@ -8,7 +8,7 @@
      <p>
 <?php
 //Incréméntation de la moité de la valeur number tant que la variable n'atteint pas 10
-for($number = 1; $number <= 10; $number += 1 / 2){
+for($number = 1; $number <= 10; $number += $number / 2){
   echo $number. '<br/>';
 }
  ?>
